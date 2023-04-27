@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: __dirname + "/dist",
     filename: "[name].[contenthash].js",
-    publicPath: "",
+    publicPath: "static/",
   },
   mode: "production",
   optimization: {
