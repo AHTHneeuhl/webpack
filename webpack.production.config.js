@@ -8,10 +8,10 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: __dirname + "/dist",
-    filename: "bundle.[contenthash].js",
+    filename: "bundle.js",
     publicPath: "",
   },
-  mode: "none",
+  mode: "production",
   module: {
     rules: [
       {
